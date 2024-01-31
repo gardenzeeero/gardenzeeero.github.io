@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
+  "homepage": "https://gardenzeeero.github.io/",
   "scripts": {
     "prebuild": "npx rimraf assets/js/dist sw.min.js*",
     "build": "NODE_ENV=production npx rollup -c --bundleConfigAsCjs",
@@ -108,5 +108,8 @@
         "section": "Improvements"
       }
     ]
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
