@@ -20,7 +20,6 @@ package-lock.json
 # Misc
 *.map
 sw.min.js
-assets/js/dist
+# assets/js/dist 없대서 올려봄
 
-Gemfile.lock
 .ruby-version
