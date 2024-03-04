@@ -6,6 +6,7 @@ categories:
   - Algorithm
 tags:
   - 알고리즘
+  - 백트래킹
 ---
 ## 백트래킹(BackTracking) 이란?
 
