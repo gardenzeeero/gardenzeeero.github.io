@@ -11,9 +11,11 @@ tags:
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/258711)
 
 ## 알고리즘 분류
+---
 DFS(약간의 변형)
 
 ## 알게된 점
+---
 DFS인건 알고 있었지만 생성된 정점 찾기가 힘들었음
 
 indegree와 outdegree를 이용하는 것이  생소했음
@@ -23,7 +25,7 @@ indegree와 outdegree를 이용하는 것이  생소했음
 그리고 조건을 좀 꼼꼼히 읽어야했음 조건 안읽고 나혼자 반례때문에 안되네 이러고 있었음
 
 ## 해설
-
+---
 생성된 정점만 찾으면 생각보다 간단함    
 근데 생성된 정점 찾는게 어려움
 
