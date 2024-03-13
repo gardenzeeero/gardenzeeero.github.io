@@ -1,5 +1,5 @@
 ---
-title: "[Algorithm] Selection, Insertion, Shell Sort"
+title: sSelection, Insertion, Shell Sort
 date: 2024-03-08 +09:00
 categories:
   - School
@@ -8,7 +8,7 @@ tags:
   - 알고리즘
   - 정렬
 ---
-# 선택 정렬 (Selection Sort)
+# 선택 정렬 (Selection Sort) 
 ---
 - 알고리즘
 	1. 앞에서 부터 현재 위치를 옮겨감

@@ -1,5 +1,5 @@
 ---
-title: "[Algorithm] Sorting 개요"
+title: Sorting 개요
 date: 2024-03-08 +09:00
 categories:
   - School
