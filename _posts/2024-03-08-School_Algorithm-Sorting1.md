@@ -1,5 +1,5 @@
 ---
-title: sSelection, Insertion, Shell Sort
+title: Selection, Insertion, Shell Sort
 date: 2024-03-08 +09:00
 categories:
   - School
@@ -30,7 +30,7 @@ tags:
 
 ## 구현
 ---
-```Java
+```java
 public class Selection extends AbstractSort{  
     public static void sort(Comparable[] a){  
         int N = a.length;  
@@ -77,7 +77,7 @@ C : 배열에 구조체 자체가 들어가 있으니 성능 영향 O
 
 ## 구현
 ---
-```Java
+```java
 public class Insertion extends AbstractSort {  
     public static void sort(Comparable[] a){  
         int N = a.length;  
