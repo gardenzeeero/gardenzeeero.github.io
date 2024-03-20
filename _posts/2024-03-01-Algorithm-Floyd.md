@@ -1,5 +1,5 @@
 ---
-title: Floyd(플로이드) - 최단거리
+title: "[C++] Floyd(플로이드) - 최단거리"
 date: 2024-03-01 +09:00
 categories:
   - Study

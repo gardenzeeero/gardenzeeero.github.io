@@ -1,5 +1,5 @@
 ---
-title: Dijkstra(다익스트라) - 최단거리
+title: "[C++] Dijkstra(다익스트라) - 최단거리"
 date: 2024-03-02 +09:00
 categories:
   - Study

@@ -1,5 +1,5 @@
 ---
-title: BackTracking
+title: "[C++] BackTracking"
 date: 2024-02-14 +09:00
 categories:
   - Study

@@ -1,5 +1,5 @@
 ---
-title: Selection, Insertion, Shell Sort
+title: "[Java] Selection, Insertion, Shell Sort"
 date: 2024-03-08 +09:00
 categories:
   - School
@@ -110,7 +110,7 @@ public class Insertion extends AbstractSort {
 그럼 h-수열을 어떻게 할당하면 가장 효율적일까?
 - 사실 최적은 아직 발견되지 않음
 - 하지만, 보통 h<sub>i</sub> = 3 * h<sub>i-1</sub> + 1 로 사용함
-	- 시간복잡도 : O(n<sup>1.5</sup>), 루트n 정도
+	- 시간복잡도 : O(n<sup>1.5</sup>)
 
 ![](images/2024-03-08-School_Algorithm-Sorting1-1.gif)
 
