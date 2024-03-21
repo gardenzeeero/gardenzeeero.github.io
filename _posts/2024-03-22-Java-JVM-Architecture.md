@@ -1,5 +1,5 @@
 ---
-title: "[Java] JVM Memory Structure (JVM 메모리구조)"
+title: JVM Memory Structure (JVM 메모리구조)
 date: 2024-03-22 +09:00
 categories:
   - Study
@@ -13,11 +13,11 @@ tags:
 그래서 운영체제마다 JVM의 구조도 조금씩 다름   
 하지만 일반적인 구조는 아래와 같음
 
-![](images/2024-03-17-Java-Memory_Structure.png)
+![](images/2024-03-17-Java-JVM-Architecture.png)
 
 ## 1) Class Loader System
 ---
-![](images/2024-03-17-Java-Memory_Structure-2.png)
+![](images/2024-03-17-Java-JVM-Architecture-2.png)
 
 Class Loader는 항상 메모리에 올라와 있음   
 클래스 파일을 메모리로 가져오는 역할을 함
@@ -33,7 +33,7 @@ Class Loader는 파일을 메모리에 올리는 것외에도
 ---
 이 영역은 JVM이 OS에서 실행될 때 할당되는 메모리 영역임
 
-![](images/2024-03-17-Java-Memory_Structure-3.png)
+![](images/2024-03-17-Java-JVM-Architecture-3.png)
 
 ### Method 영역
 Method 영역에는 Class Loader에 의해 파일의 바이너리 데이터와 클래스 각각의 대한 정보를 저장함
@@ -59,7 +59,7 @@ Heap 영역도 스레드끼리 공유함 (공유 리소스)
 이 할당된 공간을 Stack Frame이라고 함
 이 Stack Frame이 Stack 영역에 쌓이는 구조임
 
-![](images/2024-03-17-Java-Memory_Structure-1.png)
+![](images/2024-03-17-Java-JVM-Architecture-1.png)
 
 위에서 볼 수 있듯이 Stack Frame은 세가지로 구성됨
 - 지역변수 배열
@@ -92,7 +92,7 @@ Java 가 아닌 다른 언어 (C, C++) 로 구성된 메소드를 실행이 필�
 
 Execution Engine이 여기서 한줄 씩 명령어를 읽어가며 실행함
 
-![](images/2024-03-17-Java-Memory_Structure-4.png)
+![](images/2024-03-17-Java-JVM-Architecture-4.png)
 
 ### Interpreter
 한국어로 해석하면 통역사임
@@ -123,7 +123,7 @@ JVM은 객체가 참조되고 있으면 살아있는 걸로 판단함
 
 ## 4) JNI (Java Native Interface)
 
-![](images/2024-03-17-Java-Memory_Structure-5.png)
+![](images/2024-03-17-Java-JVM-Architecture-5.png)
 
 이 인터페이스는 실행에 필요한 Native Method Libraries와 상호 작용함
 
