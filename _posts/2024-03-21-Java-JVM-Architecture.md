@@ -1,6 +1,6 @@
 ---
 title: JVM Memory Structure (JVM 메모리구조)
-date: 2024-03-22 +09:00
+date: 2024-03-21 +09:00
 categories:
   - Study
   - Java
