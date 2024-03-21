@@ -122,7 +122,7 @@ JVM은 객체가 참조되고 있으면 살아있는 걸로 판단함
 (System.gc()를 이용해 강제 메모리 회수도 가능)
 
 ## 4) JNI (Java Native Interface)
-
+---
 ![](images/2024-03-17-Java-JVM-Architecture-5.png)
 
 이 인터페이스는 실행에 필요한 Native Method Libraries와 상호 작용함
@@ -131,6 +131,7 @@ JVM은 객체가 참조되고 있으면 살아있는 걸로 판단함
 또한 하드웨어의 C/C++ 라이브러리에 의해 호출될 수 있음
 
 ## 5) Native Method Libraries
+---
 실행 엔진에 필요한 C/C++ 라이브러리 모음임
 
 JNI를 통해서 접근이 가능함
