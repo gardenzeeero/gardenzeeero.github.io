@@ -1,6 +1,6 @@
 ---
-title: JVM Architecture (JVM 메모리구조)
-date: 2024-03-21 +09:00
+title: Default Method (OCP)
+date: 2024-03-28 +09:00
 categories:
   - Study
   - Java
