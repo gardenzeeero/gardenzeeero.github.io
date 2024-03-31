@@ -29,6 +29,7 @@ API 공식문서(Java 8)를 통해 알 수 있다.
 
 ![](images/2024-03-31-Java-Arrays_Collections_sort.png)
 
+
 보다시피 배열과 함께 **Comparator**를 전달한다.  
 또한 매개변수로 **제네릭 타입 배열**을 받는다.  
 즉, **기본형 변수**의 경우 **형변환을 해서 넘겨줘야 정렬조건을 바꿀 수 있다.**
@@ -40,7 +41,7 @@ API 공식문서(Java 8)를 통해 알 수 있다.
 ---
 그렇다면 Arrays.sort()는 어떻게 정렬을 하는걸까?
 
-1. **기본형(primitive)** 배열
+### **기본형(primitive)** 배열
 
 ```java
 public static void sort(int[] a) {  
@@ -53,7 +54,8 @@ public static void sort(int[] a) {
 `DualPivotQuicksorts`은 **pivot을 두개** 사용해 `Quicksort`보단 **조금 더 성능이 높다.**  
 (하지만 시간복잡도 **빅-오는 동일**하다고 한다. 이는 다른 글을 통해 알아보자)
 
-2. **참조형(reference)** 배열
+
+###  **참조형(reference)** 배열
 
 ```java
 public static void sort(Object[] a) {  
@@ -119,7 +121,7 @@ default void sort(Comparator<? super E> c) {
 
 # 시간복잡도
 ---
-결과적으로 `Arrays.sort`와 `Collections.sort`의 시간복잡도는 아래와 같게 된다.
+결과적으로 `Arrays.sort`와 `Collections.sort`의 **시간복잡도**는 아래와 같게 된다.
 
 ![](images/2024-03-31-Java-Arrays_Collections_sort-2.png)
 
