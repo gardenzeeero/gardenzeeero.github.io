@@ -1,5 +1,5 @@
 ---
-title: Default Method (OCP)
+title: "[Java] Default Method (OCP)"
 date: 2024-03-28 +09:00
 categories:
   - Study

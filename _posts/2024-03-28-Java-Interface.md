@@ -1,5 +1,5 @@
 ---
-title: Interface의 이해
+title: "[Java] Interface의 이해"
 date: 2024-03-28 +09:00
 categories:
   - Study
