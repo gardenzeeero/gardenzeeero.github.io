@@ -8,13 +8,13 @@ tags:
   - 알고리즘
   - 정렬
 ---
-# 선형정렬 알고리즘
+## 선형정렬 알고리즘
 ---
 - 키에 대한 추가적인 <b>제약조건</b>이 존재
 	- 예: 키 값의 범위, 키의 자리수
 - Counting, Bucket, Radix 등이 있음
 
-# Counting Sort
+## Counting Sort
 ---
 - 제약 조건
 	- **키 값이 0~K-1 사이의 정수**
@@ -38,7 +38,7 @@ tags:
 	- K의 크기가 N과 비슷하다면 O(N)만에 정렬 가능
 	- **Stable**
 
-## 구현
+### 구현
 ---
 ```java
 public class Counting{  
@@ -55,7 +55,7 @@ public class Counting{
 }
 ```
 
-# Bucket Sort
+## Bucket Sort
 ---
 - 제약 조건
 	- **키 값이 0~K-1 사이의 정수**
@@ -76,7 +76,7 @@ public class Counting{
 	- Stable
 	- 제자리정렬 X
 
-# Radix sort
+## Radix sort
 ---
 - 제약조건
 	- **키가 d개의 요소로 이루어져 있어야함**
@@ -103,7 +103,7 @@ public class Counting{
 	- 보통 정수형을 정렬할 때 유용
 		- 그래서 버킷 정렬을 사용하는 것임
 
-## 구현
+### 구현
 ---
 ```java
 public class Radix {  

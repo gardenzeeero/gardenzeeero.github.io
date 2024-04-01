@@ -7,7 +7,7 @@ categories:
 tags:
   - 자바
 ---
-# Arrays.sort()
+## Arrays.sort()
 ---
 우선 `Arrays`클래스는 **배열**을 쉽게 다루기 위해 만들었다.
 
@@ -15,7 +15,7 @@ tags:
 1. **기본(primitive)** 타입
 2. **참조(reference)** 타입
 
-## Arrays.sort() 알아보기
+### Arrays.sort() 알아보기
 ---
 `Arrays.sort()`를 쓰게 되면 어떻게 정렬이 될까?
 
@@ -37,11 +37,11 @@ API 공식문서(Java 8)를 통해 알 수 있다.
 그렇다면 Comparator은 어떻게 만들까?
 (이건 다른글에서 알아보자)
 
-## Arrays.sort() 뜯어보기
+### Arrays.sort() 뜯어보기
 ---
 그렇다면 Arrays.sort()는 어떻게 정렬을 하는걸까?
 
-### **기본형(primitive)** 배열
+#### **기본형(primitive)** 배열
 
 ```java
 public static void sort(int[] a) {  
@@ -55,7 +55,7 @@ public static void sort(int[] a) {
 (하지만 시간복잡도 **빅-오는 동일**하다고 한다. 이는 다른 글을 통해 알아보자)
 
 
-###  **참조형(reference)** 배열
+####  **참조형(reference)** 배열
 
 ```java
 public static void sort(Object[] a) {  
@@ -73,11 +73,11 @@ LegacyMergeSort라고도 있는데 주석으로 나중에 사라질 것이라고
 둘의 장점을 가져왔다고 보면 된다.
 
 
-# Collections.sort()
+## Collections.sort()
 ---
 우선 `Collections`클래스는 **Collection**을 쉽게 다루기 위해 만들었다.
 
-## Collections.sort() 알아보기
+### Collections.sort() 알아보기
 ---
 `Collections.sort()`를 쓰게 되면 어떻게 정렬이 될까?
 
@@ -88,7 +88,7 @@ Arrays.sort()와 동일하게 정렬조건을 주지 않는다면 **요소의 na
 **natural order**가 있어야하니 해당 요소는 당연히 **Comparable 인터페이스를 구현**하고 있어야한다.
 보통 **오름차순**으로 정렬된다고 보면 된다. (사용자가 선언한 클래스가 아니라면)
 
-## Collections.sort() 뜯어보기
+### Collections.sort() 뜯어보기
 ---
 그렇다면 Collections.sort()는 어떻게 정렬을 하는걸까?
 
@@ -119,14 +119,14 @@ default void sort(Comparator<? super E> c) {
 
 즉, Collections.sort도 결국 **Arrays.sort를 사용하는 것**이다.
 
-# 시간복잡도
+## 시간복잡도
 ---
 결과적으로 `Arrays.sort`와 `Collections.sort`의 **시간복잡도**는 아래와 같게 된다.
 
 ![](images/2024-03-31-Java-Arrays_Collections_sort-2.png)
 
 
-# 출처 및 참고자료
+## 출처 및 참고자료
 ---
 [Java8 API](https://docs.oracle.com/javase/8/docs/api/)
 [사진출처](https://codingnojam.tistory.com/38)
