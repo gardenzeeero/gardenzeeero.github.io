@@ -315,5 +315,5 @@ OS는 storage에 대한 **일관적이고 논리적인 관점**을 제공한다.
 
 ## 참고 자료
 ---
-책 - operating system concepts (일명 공룡OS)
+책 - operating system concepts (일명 공룡OS)    
 그림 - 영남대학교 곽종우 교수님 OS 수업
