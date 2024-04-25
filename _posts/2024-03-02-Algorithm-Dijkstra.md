@@ -63,6 +63,7 @@ tags:
 ## 구현(BOJ-1753) - 시간초과
 ---
 - O(V<sup>2</sup> + E) 코드 (정점이 2만개라 시간초과)
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -132,6 +133,7 @@ int main(){
 * 6을 pop -> 6과 연결된 노드 없음 -> 종료
 ## 구현(BOJ-1753) - 통과
 ---
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
