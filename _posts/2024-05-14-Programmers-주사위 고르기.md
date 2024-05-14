@@ -165,7 +165,6 @@ vector<int> solution(vector<vector<int>> dice) {
     do{
         recursive(0, 1);
         recursive(0, 0);
-        sort(sumA.begin(), sumA.end());
         sort(sumB.begin(), sumB.end());
         
         findAnswer();
