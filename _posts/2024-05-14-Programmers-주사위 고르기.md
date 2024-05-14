@@ -72,7 +72,7 @@ void recursive(int count, int bit){
 
 그림을 보면 조금 더 이해가 편할 것이다.
 
-![](images/2024-05-14-Programmers-주사위_고르기.png)
+![](images/2024-05-14-Programmers-주사위%20고르기.png)
 
 하지만 A와 B를 그냥 2중 반복문을 통해 검사하게 된다면 시간초과가 발생하게 된다.   
 그 이유는 마지막 시간 복잡도 계산 부분에서 판단해본다.(**이미 코드 짜기 전에 해보고 짜야함**, 글의 흐름상)
@@ -86,7 +86,7 @@ void recursive(int count, int bit){
 조건문을 탈출 할 경우 left의 값이 작은 것의 개수가 된다.   
 그림을 보면 이해가 더 쉽다.
 
-![](images/2024-05-14-Programmers-주사위_고르기-1.png)
+![](images/2024-05-14-Programmers-주사위%20고르기-1.png)
 
 이런 방식으로 구한 count가 이전 조합들보다 크다면 업데이트 해주는 방식이다.
 
