@@ -26,7 +26,6 @@ tags:
 ## 런타임시 문제점
 ---
 ```java
-
 abstract class Animal {
     public void go() {
         System.out.println("Animal");
@@ -63,9 +62,21 @@ public <T extends Animal> void doAction(List<T> animals) {
 
     for (Animal animal: animals) {
         animal.go();
-    
 ```
 
 하지만 위의 메서드를 보면 타입소거 이후에도 문제가 생기지 않는다.
 
+```java
+public void doAction(List animals) {
+
+    animals.add(new Cat()); 
+
+    for (Animal animal: animals) {
+        animal.go();
+    }
+}
+```
+
 하지만 Dog List를 넘겨주면 Cat이 들어갈 수 없음에도 들어가버리는 문제가 생긴다.
+
+그래서 doAction을 호출하면 Cat이 출력되는 마법이 생긴다.
