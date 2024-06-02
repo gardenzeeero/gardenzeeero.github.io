@@ -66,7 +66,7 @@ public synchronized void start() {
 
 start0 메서드는 뭘까??
 
-![](https://blog.kakaocdn.net/dn/dINHsU/btrj4mX4xSI/TUllNv1K1lCv9jAK16LLd1/img.jpg)
+![[2024-06-02-Java-ThreadStart-1.png]]
 
 start0 메서드는 **native 메서드**이다.    
 start0 메서드를 호출하면 **JVM_StartThread라는 cpp함수**를 호출한다.
