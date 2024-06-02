@@ -62,6 +62,8 @@ public <T extends Animal> void doAction(List<T> animals) {
 
     for (Animal animal: animals) {
         animal.go();
+    }
+}
 ```
 
 하지만 위의 메서드를 보면 타입소거 이후에도 문제가 생기지 않는다.
