@@ -71,7 +71,7 @@ start0 메서드는 뭘까??
 start0 메서드는 **native 메서드**이다.    
 start0 메서드를 호출하면 **JVM_StartThread라는 cpp함수**를 호출한다.
 
-[공신문서](http://hg.openjdk.java.net/jdk7/jdk7/hotspot/file/9b0ca45cd756/src/share/vm/prims/jvm.cpp)를 가보면 JVM_StartThread 함수의 구현코드를 확인할 수 있다.
+[공신문서](https://hg.openjdk.java.net/jdk7/jdk7/hotspot/file/9b0ca45cd756/src/share/vm/prims/jvm.cpp)를 가보면 JVM_StartThread 함수의 구현코드를 확인할 수 있다.
 
 요약해보면 다음처럼 정리할 수 있다.
 - 입력받은 **Thread 인스턴스가 null이 아니면**(이미 실행했던 Thread 일 경우) 예외를 발생시킨다.
