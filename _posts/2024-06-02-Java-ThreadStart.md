@@ -16,7 +16,7 @@ run만 실행시켰을 땐 새로운 **call stack이 생겨나지 않는다.**
 
 run을 호출 했을 때의 Call Stack의 모습은 아래와 같다.
 
-![](2024-06-02-Java-ThreadStart.png)
+![](images/2024-06-02-Java-ThreadStart.png)
 
 run 메서드가 끝나기 전까지는 main 메서드는 실행되지 못한다. (싱글쓰레드)
 
@@ -66,7 +66,7 @@ public synchronized void start() {
 
 start0 메서드는 뭘까??
 
-![](2024-06-02-Java-ThreadStart-1.png)
+![](images/2024-06-02-Java-ThreadStart-1.png)
 
 start0 메서드는 **native 메서드**이다.    
 start0 메서드를 호출하면 **JVM_StartThread라는 cpp함수**를 호출한다.
