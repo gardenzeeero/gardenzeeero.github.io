@@ -82,9 +82,8 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
-  # The active options are as follows:
-  disqus: 
+  active: giscus
+  disqus: gardenzeeero/gardenzeeero.github.io
     comments: true
     shortname: 'gardenzeeero' # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
@@ -93,10 +92,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: gardenzeeero/gardenzeeero.github.io
+    repo_id: R_kgDOLMDx8A
+    category: General
+    category_id: DIC_kwDOLMDx8M4Cgn1Y
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: ko-KR
