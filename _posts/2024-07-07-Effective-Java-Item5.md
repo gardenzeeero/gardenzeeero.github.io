@@ -1,5 +1,5 @@
 ---
-title: "[JAVA] 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라"
+title: "[Effective Java] 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라"
 date: 2024-07-07 +09:00
 categories:
   - Study
