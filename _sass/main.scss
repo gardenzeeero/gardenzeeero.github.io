@@ -11,3 +11,21 @@
 @import 'layout/archives';
 @import 'layout/categories';
 @import 'layout/category-tag';
+@font-face {
+    font-family: 'NotoSansKR-Bold';
+    src: url('/assets/fonts/NotoSansKR-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LINESeedKR-Regular';
+    src: url('/assets/fonts/NotoSansKR-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LINESeedKR';
+    src: url('/assets/fonts/NotoSansKR.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
