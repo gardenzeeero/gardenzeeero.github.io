@@ -6,6 +6,7 @@ categories:
   - Java
 tags:
   - 자바
+  - 이펙티브자바
 ---
 해당 글은 Effective Java를 공부하며 정리한 글이다.     
 [정리된 Github](https://github.com/gardenzeeero/effective-java-study)
@@ -329,7 +330,7 @@ void consistencyTest() throws MalformedURLException {
 따라서, 이런 문제를 피하려면 항시 메모리에 존재하는 결정적(deterministic) 계산만 사용해야한다.
 
 
-## 5. null-아님
+### 5. null-아님
 ---
 null이 아닌 모든 참조 값 x에 대해, `x.equals(null)`은 false
 
