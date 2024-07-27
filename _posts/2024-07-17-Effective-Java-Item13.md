@@ -7,6 +7,7 @@ categories:
 tags:
   - 자바
   - 이펙티브자바
+published: "false"
 ---
 해당 글은 Effective Java를 공부하며 정리한 글이다.     
 [정리된 Github](https://github.com/gardenzeeero/effective-java-study)
