@@ -23,7 +23,8 @@ published: "false"
 ![](images/2024-07-17-Effective-Java-Item13-1.png)
 
 #### 깊은 복사
-![](Pasted%20image%2020240717212529.png)
+![](images/2024-07-17-Effective-Java-Item13-2.png)
+
 ## Cloneable 인터페이스
 ---
 - 믹스인 인터페이스이다.
