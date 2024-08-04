@@ -107,7 +107,7 @@ if(m.find("hi") != m.end()) cout << "hi is found"
 m.erase("hi");
 m.clear();
 
-//ket = first, value = second
+//key = first, value = second
 for(auto e : m){
 	cout << e.first << " " << e.second;
 }
