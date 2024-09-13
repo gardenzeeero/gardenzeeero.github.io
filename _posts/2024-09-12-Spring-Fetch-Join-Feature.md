@@ -25,12 +25,12 @@ join 뒤에 fetch 를 붙여 사용한다. 보다시피 fetch join은 별칭을 
 SELECT
     M.*, T.*
 FROM MEMBER M
-INNER JOIN TEAM T ON M.TEAM_ID=T.ID
+INNER JOIN TEAM T
 ```
 
 SQL의 결과는 아래의 그림과 같다.
 
-![](images/2024-09-12-Spring-Fetch-Join-1.png)
+![](images/2024-09-12-Spring-Fetch-Join-Feature-1.png)
 
 ## 컬렉션 Fetch Join
 ---
@@ -64,7 +64,7 @@ WHERE T.NAME = '팀A'
 
 ## DISTINCT
 ---
-SQL에서 DISTINCT는 중복된 결과를 제거한다. JQPL에서는 DISTINCT가 **SQL에 DISDINCT를 추가**할 뿐만 아니라 **애플리케이션에서도 제거**해준다.
+SQL에서 DISTINCT는 중복된 결과를 제거한다. JPQL에서는 DISTINCT가 **SQL에 DISTINCT를 추가**할 뿐만 아니라 **애플리케이션에서도 제거**해준다.
 
 ```
 select distinct t
