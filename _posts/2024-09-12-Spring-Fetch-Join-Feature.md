@@ -13,7 +13,7 @@ tags:
 
 ## 🤔 FetchJoin이 뭔데?
 ---
-일반적인 SQL의 Join의 종류는 아니고 **JPQL에서 성능 최적화를 위해 제공하는 기**능이다. Fetch Join을 하게 되면 **연관된 엔티티도 함께 조회**된다. 사용방법은 아래와 같다.
+일반적인 SQL의 Join의 종류는 아니고 **JPQL에서 성능 최적화를 위해 제공하는 기능**이다. Fetch Join을 하게 되면 **연관된 엔티티도 함께 조회**된다. 사용방법은 아래와 같다.
 
 ```
 select m from Memebr m join fetch m.team
