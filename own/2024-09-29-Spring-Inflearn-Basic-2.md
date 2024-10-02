@@ -1,5 +1,5 @@
 ---
-title: "[김영한 Spring] 비즈니스 로직 설계"
+title: "[Spring] Configuration의 등장"
 date: 2024-09-29 +09:00
 categories:
   - Study
