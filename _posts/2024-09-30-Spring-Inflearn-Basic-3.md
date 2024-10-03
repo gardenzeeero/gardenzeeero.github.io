@@ -20,7 +20,7 @@ public class OrderServiceImpl implements OrderService {
 }
 ```
 
-비즈니스 요구사항이 변경되어 FixDiscountPolicy를 RateDiscountPoliicy로 수정한다고 생각해보자. 해당 코드는 아래와 같이 변경되어야한다.
+비즈니스 요구사항이 변경되ㄴ어 FixDiscountPolicy를 RateDiscountPoliicy로 수정한다고 생각해보자. 해당 코드는 아래와 같이 변경되어야한다.
 ```java
 public class OrderServiceImpl implements OrderService {
 
