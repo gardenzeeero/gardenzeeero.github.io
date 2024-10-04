@@ -1,6 +1,6 @@
 ---
 title: "[Spring JPA] @Modifying 어노테이션"
-date: 2024-09-12 +09:00
+date: 2024-10-04 +09:00
 categories:
   - Study
   - Spring
