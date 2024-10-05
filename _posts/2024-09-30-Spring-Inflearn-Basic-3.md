@@ -1,6 +1,6 @@
 ---
 title: "[Spring] Configuration의 등장"
-date: 2024-09-29 +09:00
+date: 2024-09-30 +09:00
 categories:
   - Study
   - Spring-Inflearn
@@ -8,8 +8,6 @@ tags:
   - 스프링
   - 스프링부트
 ---
-해당 글은 김영한님의 Spring 강의를 듣고 한차시를 요약적으로 정리한 것이다. 기술의 단점을 보완하고 발전시키는 방향으로 진행된다. 따라서, 아래의 글이 최적의 방법이 아닐 수 있다. 기술 등장 배경과 이점에 집중해보자.
-
 ## 🤔 Configuration를 쓰기전에는?
 ---
 기존에는 아래와 같은 방식으로 설계되어있었다.
@@ -190,3 +188,7 @@ public static void main(String[] args) {
         Order order = orderService.createOrder(memberId, "itemA", 20000);
     }
 ```
+
+## Reference
+---
+해당 글은 김영한님의 Spring 강의를 듣고 한차시를 요약적으로 정리한 것이다. 기술의 단점을 보완하고 발전시키는 방향으로 진행된다. 따라서, 아래의 글이 최적의 방법이 아닐 수 있다. 기술 등장 배경과 이점에 집중해서 보자.
